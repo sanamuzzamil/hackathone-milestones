@@ -1,0 +1,81 @@
+/* Container for the resume */
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #b6c1c1;
+    gap: 10px; /* Spacing between columns */
+    min-height: 100vh; /* Full viewport height */
+    flex-wrap: nowrap; /* Keeps columns on a single line */
+}
+
+/* Left Column Styling */
+.left-column {
+    background-color: #b193e8;
+    color: white;
+    padding: 20px;
+    flex-basis: 35%; /* Left column takes 35% of the container */
+    text-align: center;
+}
+
+.left-column .profile-pic img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.left-column h2 {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Right Column Styling */
+.right-column {
+    padding: 20px;
+    flex-basis: 65%; /* Right column takes 65% of the container */
+}
+
+.right-column h1 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.right-column .section {
+    background-color: #b193e8;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffcccc;
+}
+
+.right-column h3 {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-column p, .right-column ul {
+    margin-left: 20px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* List Styling */
+.right-column ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+/* Button Styling */
+.button, #toggle-skills {
+    background-color:peachpuff
+   
+}
